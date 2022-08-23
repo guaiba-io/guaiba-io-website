@@ -3,30 +3,18 @@
   "version": "1.0.0",
   "private": true,
   "description": "guaiba.io",
-  "author": "mabdala",
-  "keywords": [
-    "gatsby"
-  ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "gatsby": "^4.21.1",
-    "gatsby-source-filesystem": "^4.21.1",
-    "gatsby-transformer-remark": "^5.21.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guaiba-io/guaiba-io-website.git"
   },
-  "devDependencies": {
-    "@types/node": "^17.0.45",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "sharp": "^0.30.7",
-    "typescript": "^4.7.4"
-  }
+  "keywords": [],
+  "author": "MateusAbdala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guaiba-io/guaiba-io-website/issues"
+  },
+  "homepage": "https://github.com/guaiba-io/guaiba-io-website#readme"
 }
