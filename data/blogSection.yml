@@ -1,9 +1,9 @@
 ---
-enable: true
+enable: false
 topTitle: Blog
 title: >
-  ## Recent Article
+  ## Artigos Recentes
 
-  Enjoy team diversity and increase their networks among others people in various fields by provided.
+  Aproveite a diversidade da equipe e amplie seus conhecimentos na área de tecnologia nos vários campos fornecidos.
 
 buttonTarget: blog

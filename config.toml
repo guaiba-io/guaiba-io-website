@@ -10,7 +10,7 @@ name = "Home"
 url = "#home"
 weight = 1
 [[menu.main]]
-name = "About"
+name = "Sobre"
 url = "#about"
 weight = 2
 [[menu.main]]
@@ -18,7 +18,7 @@ name = "Service"
 url = "#service"
 weight = 3
 [[menu.main]]
-name = "Work"
+name = "Projetos"
 url = "#portfolio"
 weight = 4
 [[menu.main]]
@@ -38,28 +38,28 @@ name = "Contact"
 url = "#contact"
 weight = 8
 
-# Sitemap Menu
+# Links Menu
 [[menu.sitemap]]
-name = "About me"
+name = "Sobre nós"
 url = "about"
 weight = 1
 [[menu.sitemap]]
-name = "Frequently Ask Question"
+name = "Dúvidas Frequentes"
 url = "#"
 weight = 2
 [[menu.sitemap]]
-name = "Privacy & Policy"
+name = "Política de Privacidade"
 url = "#"
 weight = 3
 [[menu.sitemap]]
-name = "Latest Article"
+name = "Último artigo"
 url = "#"
 weight = 4
 
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-copyright = "All right reserved copyright © guaiba.io 2020"
+copyright = "Todos os direitos autorais reservados © guaiba.io 2020"
 footerLogo = "images/contact/widget-logo.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "G-ZWEWZKQN2N"
