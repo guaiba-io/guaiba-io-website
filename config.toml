@@ -1,7 +1,6 @@
 baseURL = "http://guaiba.io/"
 languageCode = "pt-br"
 paginate = 6
-theme = "portio"
 title = "Guaíba IO"
 
 # Main Menu
