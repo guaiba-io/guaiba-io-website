@@ -1,10 +1,10 @@
 <svg id="guaibaIO"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 50">
-    <text font-family="&quot;guaibaIO:::Poppins&quot;" fill="#5d78ff" font-size="20" font-weight="700" x="20%" y="45%" dominant-baseline="middle">
+    <text font-family="&quot;guaibaIO:::Poppins&quot;" fill="#5d78ff" font-size="30" font-weight="700" x="0%" y="45%" dominant-baseline="middle">
         g
     </text>
-    <text font-family="&quot;guaibaIO:::Poppins&quot;" fill="black" font-size="10" font-weight="600" x="36%" y="50%" dominant-baseline="middle">
+    <text font-family="&quot;guaibaIO:::Poppins&quot;" fill="black" font-size="16" font-weight="600" x="22%" y="50%" dominant-baseline="middle">
         guaiba.io
     </text>
     <style>
