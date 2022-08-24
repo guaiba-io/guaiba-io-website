@@ -63,13 +63,13 @@ copyright = "Todos os direitos autorais reservados © guaiba.io 2020"
 footerLogo = "images/contact/widget-logo.png"
 formspreeURL = "YOUR FORMSPREE URL"
 googleAnalytics = "G-ZWEWZKQN2N"
-logo = "images/site-navigation/logo.png"
+logo = "images/guaiba_io_logo.svg"
 
 [params.address]
-address = "23 Khan Niketon, Grand Street, NYK."
-email = "hello@example.com"
+address = "Guaíba, RS."
+email = "contato@guaiba.io"
 openingHours = "Open from 10am to 6pm (close at 5pm Sundays)"
-phone = "+(448) 833 5272 332"
+phone = "(51) 987654321"
 
 [params.map]
 APIkey = "YOUR GOOGLE MAP API"
