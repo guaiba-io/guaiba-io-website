@@ -1,5 +1,7 @@
 baseURL = "http://guaiba.io/"
 languageCode = "pt-br"
+defaultContentLanguage = "pt-br"
+defaultContentLang = "pt-br"
 paginate = 6
 title = "Guaíba IO"
 

@@ -18,7 +18,7 @@
     <ul class="post-meta">
       <li>
         <i class="fa fa-calendar"></i>
-        {{ .PublishDate.Format "January 2, 2006" }}
+        {{ .Date | time.Format ":date_long" }}
       </li>
       <li>
         <i class="fa fa-clock-o"></i>
