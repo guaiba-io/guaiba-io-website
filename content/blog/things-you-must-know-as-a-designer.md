@@ -4,8 +4,8 @@ date: 2020-07-13T12:49:27+06:00
 featureImage: images/allpost/allPost-4.jpg
 postImage: images/single-blog/feature-image.jpg
 tags: mobile
-categories: blog
-toc: true
+categorias: blog
+indice: true
 ---
 
 ## Introduction

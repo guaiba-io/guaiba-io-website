@@ -5,7 +5,7 @@ featureImage: images/allpost/allPost-9.jpg
 postImage: images/single-blog/feature-image.jpg
 tags: fun
 categories: documentation
-toc: true
+indice: true
 ---
 
 ## Introduction
