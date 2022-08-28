@@ -36,7 +36,7 @@ url = "#blog"
 weight = 7
 [[menu.main]]
 name = "Contato"
-url = "#contato"
+url = "/contato"
 weight = 8
 
 # Links Menu
@@ -45,15 +45,15 @@ name = "Sobre nós"
 url = "sobre"
 weight = 1
 [[menu.sitemap]]
-name = "Dúvidas Frequentes"
-url = "#"
+name = "Blog"
+url = "/blog"
 weight = 2
 [[menu.sitemap]]
-name = "Política de Privacidade"
+name = "Dúvidas Frequentes"
 url = "#"
 weight = 3
 [[menu.sitemap]]
-name = "Último artigo"
+name = "Política de Privacidade"
 url = "#"
 weight = 4
 
