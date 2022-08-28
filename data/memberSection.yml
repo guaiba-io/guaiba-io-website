@@ -1,0 +1,17 @@
+---
+enable: true
+topTitle: Nossos Membros
+content: >
+  ## Quem são os nossos membros?
+
+  Em nossa comunidade há pessoas incríveis que trabalham ou são estudantes nas seguintes áreas do mercado de Tecnologia da Informação.
+
+image: images/member/member_image.jpg
+
+member:
+  - title: Desenvolvimento de Software
+    percent: 72
+  - title: Design UI/UX
+    percent: 20
+  - title: Outros
+    percent: 8

@@ -112,8 +112,8 @@ $(document).ready(function () {
     ],
   });
 
-  // skill count
-  $(".skill__progress").waypoint(
+  // member count
+  $(".member__progress").waypoint(
     function () {
       $(".progress-value span").each(function () {
         $(this)
@@ -131,7 +131,7 @@ $(document).ready(function () {
             }
           );
       });
-      $(".skill__progress_item").addClass("js-animation");
+      $(".member__progress_item").addClass("js-animation");
       this.destroy();
     },
     { offset: "80%" }

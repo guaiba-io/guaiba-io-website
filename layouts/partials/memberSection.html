@@ -1,7 +1,7 @@
-{{ with .Site.Data.skillSection }}
+{{ with .Site.Data.memberSection }}
 {{ if .enable }}
-<section class="section skill", id="skills">
-    <div class="skill__background_shape">
+<section class="section member", id="membros">
+    <div class="member__background_shape">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
             <defs>
                 <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
@@ -15,19 +15,19 @@
             </g>
         </svg>
     </div>
-    <div class="skill__background_pattern">
+    <div class="member__background_pattern">
         <img src="images/service/background-pattern.svg" alt="background-shape">
     </div>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <div class="skill__thumb">
-                    <div class="skill__thumb_pattern">
+                <div class="member__thumb">
+                    <div class="member__thumb_pattern">
                         <img src="images/hero/figure-svg.svg" alt="figure-svg">
                     </div>
-                    <div class="skill__thumb_image">
-                        <img src="{{ .image | absURL }}" alt="skill-img" style='
-                                        -webkit-mask: url({{"images/skill/skill-mask-svg.svg" | absURL}});
+                    <div class="member__thumb_image">
+                        <img src="{{ .image | absURL }}" alt="member-img" style='
+                                        -webkit-mask: url({{"images/member/member-mask-svg.svg" | absURL}});
                                         -webkit-mask-repeat: no-repeat;
                                         -webkit-mask-size: contain;
                                         -webkit-mask-position: center center;
@@ -36,14 +36,14 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="skill__progress">
-                    <div class="skill__progress_heading mb-5">
+                <div class="member__progress">
+                    <div class="member__progress_heading mb-5">
                         <span class="top-title pre-line">{{ .topTitle }}</span>
                         {{ .content | markdownify }}
                     </div>
-                    {{ $section := .skill }}
+                    {{ $section := .member }}
                     {{ range $section }}
-                    <div class="skill__progress_item">
+                    <div class="member__progress_item">
                         <span class="d-inline-block text-dark"> {{ .title }} </span>
                         <div class="progress-value float-right"><span>{{ .percent }}</span>%</div>
                         <div class="progress">

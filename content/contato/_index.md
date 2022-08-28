@@ -1,4 +1,4 @@
 ---
 title: Entre em contato
-breadcrumb: Contact
+breadcrumb: Contato
 ---

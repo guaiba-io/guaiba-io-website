@@ -18,25 +18,25 @@ weight = 2
 name = "Service"
 url = "#service"
 weight = 3
+# [[menu.main]]
+# name = "Projetos"
+# url = "#portfolio"
+# weight = 4
+# [[menu.main]]
+# name = "Resume"
+# url = "#resume"
+# weight = 5
 [[menu.main]]
-name = "Projetos"
-url = "#portfolio"
-weight = 4
-[[menu.main]]
-name = "Resume"
-url = "#resume"
-weight = 5
-[[menu.main]]
-name = "Skills"
-url = "#skills"
+name = "Membros"
+url = "#membros"
 weight = 6
 [[menu.main]]
 name = "Blog"
 url = "#blog"
 weight = 7
 [[menu.main]]
-name = "Contact"
-url = "#contact"
+name = "Contato"
+url = "#contato"
 weight = 8
 
 # Links Menu
@@ -59,7 +59,7 @@ weight = 4
 
 [params]
 blogPageURL = "blog"
-contactLink = "contact"
+discordLink = "contato"
 copyright = "Todos os direitos autorais reservados © guaiba.io 2020"
 footerLogo = "images/guaiba_io_logo_white.svg"
 formspreeURL = "YOUR FORMSPREE URL"
@@ -80,8 +80,8 @@ pinImage = "images/pin.png"
 
 # Social icons
 [[params.social]]
-icon = "fa-facebook-official"
-url = "https://www.facebook.com/"
+icon = "fa-instagram"
+url = "https://www.instagram.com/"
 weight = 1
 [[params.social]]
 icon = "fa-linkedin-square"
