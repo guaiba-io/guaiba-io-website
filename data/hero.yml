@@ -1,13 +1,14 @@
 ---
 enable: true
-topTitle: Hello, I am Natasha
+topTitle: Olá, Seja Bem Vindo!
 content: >
-  # I am here for your personal business
+  # Guaíba na tecnologia
 
-  Enjoy team diversity and increase their networks among others people
-  in various fields by
+  Somos uma comunidade de tecnologia, conecte-se com outras pessoas da área de
+  tecnologia de Guaíba e região. Ao ingressar nessa comunidade, você terá a
+  oportunidade de aprender novas habilidades em diversos formatos.
 buttonName: Entre em contato
 buttonURL: contato
-image: images/hero/2960351.jpg
-videoThumb: images/hero/popup-thumb.png
-videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+image: images/hero/hero.jpg
+videoThumb: https://i.ytimg.com/vi_webp/jGI-fZZYH-Y/maxresdefault.webp
+videoURL: https://www.youtube.com/watch?v=jGI-fZZYH-Y

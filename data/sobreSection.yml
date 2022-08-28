@@ -1,0 +1,20 @@
+---
+enable: true
+topTitle: Sobre
+title: >
+  ## Sobre nós
+
+  Aproveite a diversidade da equipe e aumente suas redes entre outras
+  pessoas em vários campos fornecidos.
+content: >
+  ### Comunidade de tecnologia.
+
+  Para aqueles que estão começando ou que desejam entrar no mundo da tecnologia, 
+  como também aqueles que acreditam e estão dispostos a ajudar outras pessoas de
+  forma voluntária, visando, através de canais abertos de comunicação, estimular
+  o crescimento pessoal e profissional de todos do grupo.
+button1Name: Participe
+button2Name: Seja nosso patrão
+button1Target: contato
+button2Target: contato
+image: images/sobre/sobre-img.jpg

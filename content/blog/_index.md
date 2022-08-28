@@ -1,3 +1,3 @@
 ---
-title: Recents Article
+title: Veja Todas as Postagens
 ---
