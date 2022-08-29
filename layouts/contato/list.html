@@ -51,10 +51,17 @@
               </svg>
             </div>
             <div class="icon">
-              <img src="{{ "images/contact/location.svg" | absURL }}" alt="location" />
+              <!-- <img src="{{ "images/contact/location.svg" | absURL }}" alt="location" /> -->
+              <lord-icon
+                src="https://cdn.lordicon.com/zzcjjxew.json"
+                trigger="hover"
+                colors="primary:#5d78ff,secondary:#3758ff"
+                state="hover-jump"
+                style="width:100px;height:100px">
+              </lord-icon>
             </div>
           </div>
-          <h4>Office Address</h4>
+          <h4>Cidade e Região</h4>
           <p>
             {{ $address.address }}
           </p>
@@ -71,11 +78,18 @@
               </svg>
             </div>
             <div class="icon">
-              <img src="{{ "images/contact/phone.svg" | absURL }}" alt="phone" />
+              <!-- <img src="{{ "images/contact/phone.svg" | absURL }}" alt="phone" /> -->
+              <lord-icon
+                src="https://cdn.lordicon.com/rhvddzym.json"
+                trigger="hover"
+                colors="primary:#5d78ff,secondary:#3758ff"
+                style="width:100px;height:100px;">
+              </lord-icon>
             </div>
           </div>
-          <h4>Phone & Email</h4>
-          <p>{{ $address.phone }}<br>
+          <h4>Email</h4>
+          <p>
+            <!-- {{ $address.phone }}<br> -->
             <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
           </p>
 
@@ -92,7 +106,13 @@
               </svg>
             </div>
             <div class="icon">
-              <img src="{{ "images/contact/time.svg" | absURL }}" alt="time" />
+              <!-- <img src="{{ "images/contact/time.svg" | absURL }}" alt="time" /> -->
+              <lord-icon
+                src="https://cdn.lordicon.com/kbtmbyzy.json"
+                trigger="hover"
+                colors="primary:#5d78ff,secondary:#3758ff"
+                style="width:100px;height:100px">
+              </lord-icon>
             </div>
           </div>
           <h4>Horários</h4>
