@@ -41,8 +41,8 @@ weight = 8
 
 # Links Menu
 [[menu.sitemap]]
-name = "Sobre nós"
-url = "sobre"
+name = "Contato"
+url = "/contato"
 weight = 1
 [[menu.sitemap]]
 name = "Blog"
@@ -59,7 +59,7 @@ weight = 4
 
 [params]
 blogPageURL = "blog"
-discordLink = "contato"
+discordLink = "https://discord.gg/ENqkex2m3E"
 copyright = "Todos os direitos autorais reservados © guaiba.io 2020"
 footerLogo = "images/guaiba_io_logo_white.svg"
 formspreeURL = "YOUR FORMSPREE URL"
@@ -81,17 +81,13 @@ pinImage = "images/pin.png"
 # Social icons
 [[params.social]]
 icon = "fa-instagram"
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/guaiba.io/"
 weight = 1
 [[params.social]]
-icon = "fa-linkedin-square"
-url = "https://www.linkedin.com/"
+icon = "fa-linkedin"
+url = "https://www.linkedin.com/company/guaiba-io/"
 weight = 2
 [[params.social]]
-icon = "fa-pinterest-square"
-url = "https://www.pinterest.com/"
+icon = "fa-github"
+url = "https://github.com/guaiba-io/"
 weight = 3
-[[params.social]]
-icon = "fa-twitter-square"
-url = "https://twitter.com/"
-weight = 4
