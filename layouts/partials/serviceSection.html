@@ -1,6 +1,6 @@
 {{ with .Site.Data.serviceSection }}
 {{ if .enable }}
-<section class="section service" id="service">
+<section class="section service" id="servicos">
     <div class="service__background">
         <svg viewBox="0 0 1283 1126">
             <path fill="#f1f6f9" d="M100 0h1183v1126l-1183-80A100 100 0 010 946V100A100 100 0 01100 0z"
@@ -51,7 +51,13 @@
                                 </svg>
                             </div>
                             <div class="icon">
-                                <img src=" {{ .image | absURL }} " alt="ui-ux">
+                                <!-- <img src=" {{ .image | absURL }} " alt="ui-ux"> -->
+                                <lord-icon
+                                    src="https://cdn.lordicon.com/{{ .lordiconId }}.json"
+                                    trigger="hover"
+                                    colors="primary:#5d78ff,secondary:#3758ff"
+                                    style="width:100px;height:100px;">
+                                </lord-icon>
                             </div>
                         </div>
                         <div class="mt-5">

@@ -1,8 +1,8 @@
 ---
 enable: true
-topTitle: Áreas de estudo
+topTitle: Serviços disponíveis
 title: >
-  ## Creative Services
+  ## Como Contribuir
 
   Aproveite a diversidade da equipe e aumente suas redes entre outras
   pessoas em vários campos fornecidos.
@@ -10,42 +10,35 @@ service:
   - content: >
       #### Desenvolvimento de Software
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
+      Participe de projetos e discussões de Software em diferentes segmentos do
+      desenvolvimento, Backend, Frontend e Mobile.
+    lordiconId: qhgmphtg
   - content: >
       #### Design UI/UX
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
+      O Design UI/UX visa guiar os usuários por meio de uma interface inteligente,
+      desejam tornar esse processo agradável e útil, focando na experiência.
+    lordiconId: wloilxuq
   - content: >
-      #### Branding
+      #### Mentoria
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/branding.svg
+      Procure por um mentor da sua área de interesse em tecnologia, peça por instruções
+      e dicas. Treine para entrevistas de emprego.
+    lordiconId: zpxybbhl
+  - content: >
+      #### Compartilhe Conhecimento
+
+      *"Ninguém é tão grande que não possa aprender, nem tão pequeno que não possa ensinar."* **Esopo**
+    lordiconId: wxnxiano
   - content: >
       #### Línguas Estrangeiras
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/creative.svg
+      Pratique diferentes idiomas com pessoas fluentes e com outros estudantes. Aprenda
+      idiomas frequentemente utilizados em empresas internacionais como inglês e espanhol.
+    lordiconId: gqzfzudq
   - content: >
-      #### branding
+      #### Contribua
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/branding.svg
-  - content: >
-      #### UI/UX Design
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/ui-ux.svg
-  - content: >
-      #### Web Development
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/service/web.svg
+      Pessoas maravilhosas têm contribuido com esta comunidade de tecnologia em Guaíba,
+      você também pode se tornar uma delas e ajudar o mercado local de tecnologia.
+    lordiconId: rjzlnunf
