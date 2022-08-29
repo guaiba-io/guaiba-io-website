@@ -69,13 +69,13 @@ logo = "images/guaiba_io_logo.svg"
 [params.address]
 address = "Guaíba, RS."
 email = "contato@guaiba.io"
-openingHours = "Maior interação das 8h às 22h (Discord 24/7)"
-phone = "(51) 987654321"
+openingHours = "Interação das 8h às 20h"
+# phone = "(51) 987654321"
 
 [params.map]
-APIkey = "YOUR GOOGLE MAP API"
-latitude = "23.7783741"
-longitude = "90.3746808"
+APIkey = ""
+latitude = "-30.1274352"
+longitude = "-51.3295302"
 pinImage = "images/pin.png"
 
 # Social icons
