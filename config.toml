@@ -59,6 +59,7 @@ weight = 4
 
 [params]
 blogPageURL = "blog"
+glossarioPageURL = "glossario"
 discordLink = "https://discord.gg/ENqkex2m3E"
 copyright = "Todos os direitos autorais reservados © guaiba.io 2020"
 footerLogo = "images/guaiba_io_logo_white.svg"
