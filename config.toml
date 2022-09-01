@@ -74,7 +74,7 @@ logo = "images/guaiba_io_logo.svg"
 [params.address]
 address = "Guaíba, RS."
 email = "contato@guaiba.io"
-openingHours = "Interação das 8h às 20h"
+openingHours = "das 8h às 20h"
 # phone = "(51) 987654321"
 
 [params.map]
