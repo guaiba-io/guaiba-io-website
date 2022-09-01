@@ -56,6 +56,10 @@ weight = 3
 name = "Política de Privacidade"
 url = "/privacidade"
 weight = 4
+[[menu.sitemap]]
+name = "Glossário Cloud Native"
+url = "https://glossary.cncf.io/pt-br/"
+weight = 5
 
 [params]
 blogPageURL = "blog"
