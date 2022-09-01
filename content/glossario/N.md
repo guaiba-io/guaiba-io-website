@@ -1,3 +1,3 @@
 ---
-title: N
+title: 'N'
 ---

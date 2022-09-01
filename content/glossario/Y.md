@@ -1,3 +1,3 @@
 ---
-title: Y
+title: 'Y'
 ---

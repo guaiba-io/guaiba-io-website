@@ -41,15 +41,15 @@
 	<div class="container">
 		<div class="row">
 			{{ range (.Paginator 26).Pages }}
-			<div class="col-lg-4">
+			<div class="col-md-2">
 				{{ .Title }}
-				<!-- <div class="blog-page__item">
+				<div class="blog-page__item">
 					<div class="blog-page__item-content bg-white">
 						<h5 class="mb-0">
 							<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
 						</h5>
 					</div>
-				</div> -->
+				</div>
 			</div>
 			{{ end }}
 			{{ partial "pagination" .}}
