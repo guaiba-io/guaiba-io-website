@@ -6,4 +6,6 @@ title: >
 
   Aproveite a diversidade da equipe e amplie seus conhecimentos na área de tecnologia nos vários campos fornecidos.
 
-buttonTarget: blog
+buttonTarget: https://dev.to/mateusabdala
+
+apiUrl: https://dev.to/api/articles?per_page=4&username=mateusabdala

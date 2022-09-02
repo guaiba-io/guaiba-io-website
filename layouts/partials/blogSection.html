@@ -20,22 +20,25 @@
 		</div>
 
 		<div class="row">
-			{{ range first 3 (where $.Site.RegularPages "Type" "!=" "portfolio") }}
-			<a href="{{ .Permalink }}" class="col-lg-4" style="display: contents;">
-				<div class="blog-preview__item">
-					<div class="blog-preview__item-thumb">
-						<img src="{{ .Params.featureImage | absURL }}" alt="post-image">
-					</div>
-					<div class="blog-preview__item-content bg-white">
-						<span class="small">{{ .Date | time.Format ":date_long" }}</span>
-						<h5 class="mb-0">
-							<a class="text-dark" href="{{ .Permalink }}">{{ .Title }}</a>
-						</h5>
-					</div>
-				</div>
-			</a>
+			{{ with resources.GetRemote .apiUrl }}
+			{{ $postsDevTo := unmarshal .Content }}
+				{{ range first 4 $postsDevTo }}
+					<a href="{{ .canonical_url }}" class="col-6">
+						<div class="blog-page__item">
+							<div class="blog-page__item-thumb">
+								<img src="{{ .cover_image | absURL }}" alt="post-image" 
+								onerror="this.src='https://picsum.photos/405/170?blur=1'">
+							</div>
+							<div class="blog-page__item-content bg-white" style="bottom: -135px;">
+								<span class="small">{{ .published_timestamp | time.Format ":date_long" }}</span>
+								<h5 class="mb-0">
+									<p class="text-dark" href="{{ .canonical_url }}">{{ .title }}</p>
+								</h5>
+							</div>
+						</div>
+					</a>
+				{{ end }}			
 			{{ end }}
-
 		</div>
 		<div class="row">
 			<div class="col-lg-12">
