@@ -1,0 +1,7 @@
+{{ with resources.GetRemote "https://dev.to/api//articles?username=comscience" }}
+  {{ $postsDevTo := unmarshal .Content }}
+  {{ range $postsDevTo }}
+    I love {{ .title }} <br>
+  {{ end }}
+{{ end }}
+

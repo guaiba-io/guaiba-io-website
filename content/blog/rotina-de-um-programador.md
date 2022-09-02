@@ -1,9 +1,9 @@
 ---
-title: "Markdown Formatting Demo"
-date: 2020-09-13
+title: "Qual a rotina de um programador?"
+date: 2022-09-02
 featureImage: images/allpost/allPost-6.jpg
 postImage: images/single-blog/feature-image.jpg
-tags: website
+tags: dev
 categories: blog
 ---
 
